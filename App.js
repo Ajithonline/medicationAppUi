@@ -11,8 +11,9 @@ import {View} from 'react-native';
 import {SplashScreen} from './src/screens/SplashScreen';
 import {Login} from './src/screens/Login';
 import {SignUp} from './src/screens/SignUp';
+import {GettingStarted} from './src/screens/GettingStarted';
 const App: () => React$Node = () => {
-  return <SignUp />;
+  return <GettingStarted />;
 };
 
 export default App;
