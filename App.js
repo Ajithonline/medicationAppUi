@@ -12,8 +12,10 @@ import {SplashScreen} from './src/screens/SplashScreen';
 import {Login} from './src/screens/Login';
 import {SignUp} from './src/screens/SignUp';
 import {GettingStarted} from './src/screens/GettingStarted';
+import {ChooseTopic} from './src/screens/ChooseTopic';
+
 const App: () => React$Node = () => {
-  return <GettingStarted />;
+  return <ChooseTopic />;
 };
 
 export default App;
