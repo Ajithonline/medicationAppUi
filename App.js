@@ -14,9 +14,11 @@ import {SignUp} from './src/screens/SignUp';
 import {GettingStarted} from './src/screens/GettingStarted';
 import {ChooseTopic} from './src/screens/ChooseTopic';
 import {Reminders} from './src/screens/Reminders';
+import {Home} from './src/screens/Home';
+import {CourseDetails} from './src/screens/CourseDetails';
 
 const App: () => React$Node = () => {
-  return <Reminders />;
+  return <CourseDetails />;
 };
 
 export default App;
