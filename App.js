@@ -16,9 +16,10 @@ import {ChooseTopic} from './src/screens/ChooseTopic';
 import {Reminders} from './src/screens/Reminders';
 import {Home} from './src/screens/Home';
 import {CourseDetails} from './src/screens/CourseDetails';
-
+import {Meditate} from './src/screens/Meditate';
+import {Music} from './src/screens/Music';
 const App: () => React$Node = () => {
-  return <CourseDetails />;
+  return <Music />;
 };
 
 export default App;
